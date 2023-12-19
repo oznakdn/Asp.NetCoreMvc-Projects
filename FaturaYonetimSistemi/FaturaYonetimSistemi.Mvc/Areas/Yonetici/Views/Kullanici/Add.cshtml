@@ -1,0 +1,63 @@
+﻿@model FaturaYonetimSistemi.Shared.Dtos.KullaniciDtos.InsertKullaniciDto
+@using FaturaYonetimSistemi.Shared.Dtos.DaireDtos
+
+<div class="col-md-12">
+    <div asp-validation-summary="ModelOnly"></div>
+    <form class="w-50" asp-action="Add" asp-controller="Kullanici" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label>Ad</label>
+            <span asp-validation-for="Ad"></span>
+            <input type="text" class="form-control" asp-for="Ad" />
+        </div>
+        <div class="form-group">
+            <label>Soyad</label>
+            <span asp-validation-for="Soyad"></span>
+            <input type="text" class="form-control" asp-for="Soyad" />
+        </div>
+        <div class="form-group">
+            <label>TC Kimlik No</label>
+            <span asp-validation-for="TCNo"></span>
+            <input type="text" class="form-control" value="" asp-for="TCNo" />
+        </div>
+        <div class="form-group">
+            <label>Fotoğraf Url</label>
+            <input type="text" class="form-control" asp-for="Fotograf" />
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <span asp-validation-for="Email"></span>
+            <input type="text" class="form-control" asp-for="Email" />
+        </div>
+        <div class="form-group">
+            <label>Telefon</label>
+            <span asp-validation-for="Telefon"></span>
+            <input type="text" class="form-control" asp-for="Telefon" />
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" asp-for="Arac" />
+            <label>Araç Var Mı?</label>
+        </div>
+        <div class="form-group">
+            <label>Plaka</label>
+            <span asp-validation-for="Plaka"></span>
+            <input type="text" class="form-control" asp-for="Plaka" />
+        </div>
+        <div class="form-group">
+            <label>Daire Id</label>
+            <span asp-validation-for="DaireId"></span>
+            <input type="text" class="form-control" value="" asp-for="DaireId" />
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" asp-for="AktifMi" />
+            <label>Aktif Mi?</label>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-success">Ekle</button>
+            <button type="reset" class="btn btn-warning">Temizle</button>
+            <a class="btn btn-info" asp-action="GetAll" asp-controller="Kullanici" asp-area="Yonetici">Geri</a>
+        </div>
+    </form>
+</div>
+
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

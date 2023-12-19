@@ -1,0 +1,44 @@
+﻿@model IEnumerable<E_Commerce.Domain.ViewModels.ProductVM.ProductswithCategoryVM>
+
+<div class="container p-4">
+    <div class="row p-3">
+        <div class="col-6">
+            <h2>List of Products</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-action="Create" class="btn btn-primary">Create New</a>
+        </div>
+    </div>
+</div>
+<table id="myTable" class="table table-bordered table-striped" style="width:100%;">
+    <thead>
+        <tr>
+            <th>Picture</th>
+            <th>Product Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Category</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td><img src="/img/@item.ImageUrl" class="img-thumbnail" style="max-width:50px;" /></td>
+            <td>@item.Name</td>
+            <td>@item.Description</td>
+            <td>@item.Price</td>
+            <td>@item.Category</td>
+            <td>
+                <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-warning"><span class="bi bi-pencil-square"></span> Edit</a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger"><span class="bi bi-trash"></span>Delete</a>
+            </td>
+
+
+        </tr>
+        }
+    </tbody>
+</table>
+
+

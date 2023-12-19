@@ -1,0 +1,31 @@
+﻿@model TechTree.Application.Dtos.MediaTypeDtos.CreateMediaTypeDto
+
+<div class="col-12 mt-5">
+    <h4 class="align-text-top">Insert New Media Type</h4>
+    <form method="post" asp-action="Add" asp-controller="MediaType" class="w-50 mt-3">
+        @Html.AntiForgeryToken()
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="form-group">
+            <label class="form-label">Title</label>
+            <input type="text" asp-for="Title" class="form-control" />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label class="form-label">Thumbnail Picture</label>
+            <input type="text" asp-for="ThumbnailImagePath" class="form-control" />
+            <span asp-validation-for="ThumbnailImagePath" class="text-danger"></span>
+        </div>
+        <div class="form-group mt-2">
+            <button type="submit" class="btn btn-primary">Add</button>
+        </div>
+    </form>
+    <div class="form-group mt-3">
+        <a asp-action="Index" asp-controller="MediaType" class="link-info text-warning">Back to List</a>
+    </div>
+</div>
+
+@section scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}
+

@@ -1,0 +1,118 @@
+﻿@model TravelerBlog.Domain.Entities.Location
+
+
+
+<div class="col-ld-2"></div>
+<div class="col-lg-8">
+    <div class="card" style="width: 80rem;">
+        <img class="card-img-top" src="@Model.LocationPictures.Select(x => x.FileName).Single()" style="width:auto; height:400px" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title text-center text-danger">@Model.LocationName</h5>
+            <h6 class="text-center">@Model.Country.CountryName/@Model.City/@Model.Ditrict</h6>
+            <p class="card-text text-center">@Model.Description</p>
+        </div>
+        <div class="col-md-8 offset-3" id="posts">
+
+            @foreach (var item in ViewBag.PostList)
+            {
+                <div class="card" style="width: 40rem;">
+                    <div class="card-body">
+                        <h5 class="card-title"><span>@item.SendDate</span> @item.Name</h5>
+                        <h3 class="card-subtitle mb-2 text-muted">@item.Title</h3>
+                        <p class="card-text">@item.Content</p>
+                    </div>
+                </div>
+            }
+        </div>
+        <hr />
+        <div class="col-md-8 offset-3" style="width: 80rem;">
+            <input type="hidden" id="txtLocationId" value="@Model.Id" />
+            <div class="form-group">
+                <label class="form-label">Name</label>
+                <input type="text" id="txtName" class="form-control w-50" required />
+            </div>
+            <div class="form-group">
+                <label class="form-label">Email</label>
+                <input type="text" id="txtEmail" class="form-control w-50" />
+            </div>
+            <div class="form-group">
+                <label class="form-label">Title</label>
+                <input type="text" id="txtTitle" class="form-control w-50" required />
+            </div>
+            <div class="form-group">
+                <label class="form-label">Content</label>
+                <textarea id="txtContent" class="form-control w-50" required></textarea>
+            </div>
+            <div class="form-group mt-2">
+                <button onclick="AddPost(); return;" class="btn btn-success">Send Post</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-ld-2"></div>
+
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+<script>
+
+    $(document).ready(function () {
+        //GetAllLocationPosts();
+    });
+
+
+    function AddPost() {
+        const postObj = {
+            name: $("#txtName").val(),
+            emailAddress: $("#txtEmail").val(),
+            title: $("#txtTitle").val(),
+            content: $("#txtContent").val(),
+            locationId: $("#txtLocationId").val()
+        };
+
+        $.ajax({
+            url: "/Location/AddLocationPost/",
+            type: "POST",
+            dataType: "json",
+            data: { post: postObj },
+            success: function (result) {
+                alert("Post was added");
+                GetLocationPosts();
+            },
+            Error: function (errormessage) {
+                alert(errormessage.responseText)
+            }
+        });
+    };
+
+    function GetAllLocationPosts() {
+        var id = $("#txtLocationId").val();
+        $.ajax({
+            url: `/Location/GetLocationPosts/${id}`,
+            type: 'GET',
+            contentType: "application/json;charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+                //var stringData = JSON.parse(result);
+                var html = "";
+                $.each(result, function (key, value) {
+                    console.log(value.Location.Posts.Title);
+
+                    html +=
+                        `<div class="card" style="width: 40rem;">
+                        <div class="card-body">
+                        <h5 class="card-title"><span>${value.SendDate}</span> ${value.Name}</h5>
+                        <h3 class="card-subtitle mb-2 text-muted">${value.Title}</h3>
+                        <p class="card-text">${value.Content}</p>
+                        </div>
+                        </div>`;
+                });
+                $("#posts").append(html);
+            },
+            error: function (errormessage) {
+                alert(errormessage.responseText);
+            }
+        });
+    }
+
+</script>

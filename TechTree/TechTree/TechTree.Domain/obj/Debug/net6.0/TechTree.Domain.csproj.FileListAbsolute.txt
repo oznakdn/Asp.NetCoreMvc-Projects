@@ -1,0 +1,12 @@
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Domain\bin\Debug\net6.0\TechTree.Domain.deps.json
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Domain\bin\Debug\net6.0\TechTree.Domain.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Domain\bin\Debug\net6.0\TechTree.Domain.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Domain\obj\Debug\net6.0\TechTree.Domain.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Domain\obj\Debug\net6.0\TechTree.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Domain\obj\Debug\net6.0\TechTree.Domain.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Domain\obj\Debug\net6.0\TechTree.Domain.AssemblyInfo.cs
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Domain\obj\Debug\net6.0\TechTree.Domain.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Domain\obj\Debug\net6.0\TechTree.Domain.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Domain\obj\Debug\net6.0\refint\TechTree.Domain.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Domain\obj\Debug\net6.0\TechTree.Domain.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Domain\obj\Debug\net6.0\ref\TechTree.Domain.dll

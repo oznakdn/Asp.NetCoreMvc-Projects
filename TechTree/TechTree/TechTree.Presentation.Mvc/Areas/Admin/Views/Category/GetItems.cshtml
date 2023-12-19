@@ -1,0 +1,38 @@
+﻿@model TechTree.Application.Dtos.CategoryDtos.CategorywithItemsDto
+
+<div class="row mt-5">
+    <h4 class="text-center">Category Items</h4>
+    <a asp-action="Add" asp-controller="Category" class="link-info">New</a>
+    <div class="col-md-12 mt-3 p-2">
+        <table class="table table-bordered">
+            <thead class="text-danger text-center">
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Item Released Date</th>
+                    <th></th>
+                </tr>
+
+            </thead>
+
+            <tbody class="text-white text-center p-2">
+                @foreach (var item in Model.CategoryItems)
+                {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Title</td>
+                    <td>@item.ItemReleasedDate</td>
+                    <td>
+                        <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detail</a>
+                        <a class="btn btn-warning" asp-action="Update" asp-route-id="@item.Id">Update</a>
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        <a class="btn btn-secondary" asp-area="Admin" asp-controller="CategoryItem" asp-action="Index" asp-route-id="@item.Id">Items</a>
+                    </td>
+                </tr>
+                }
+            </tbody>
+
+        </table>
+    </div>
+</div>
+

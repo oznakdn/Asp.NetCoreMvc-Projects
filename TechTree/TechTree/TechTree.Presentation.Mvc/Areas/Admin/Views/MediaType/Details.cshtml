@@ -1,0 +1,20 @@
+﻿@model TechTree.Application.Dtos.MediaTypeDtos.MediaTypeDto
+
+<div class="col-8 mt-5">
+    <div class="card mb-3" style="max-width: 540px; margin-left:300px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="@Model.ThumbnailImagePath" class="card-img-top img-thumbnail" style="max-width:200px;" alt="...">
+
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title text-danger">@Model.Title</h5>
+                    <br />
+                    <a asp-action="Index" class="btn btn-warning">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,15 @@
+﻿@model IEnumerable<TravelerBlog.Domain.Entities.Country>
+
+    <li class="nav-item submenu dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+           aria-expanded="false">Countries</a>
+        <ul class="dropdown-menu">
+            @foreach (var item in Model)
+            {
+                <li class="nav-item dropdown">
+                    <a class="nav-link" asp-controller="Country" asp-action="GetCountryDetail" asp-route-id="@item.Id">@item.CountryName</a>
+                </li>  
+            }
+        </ul>
+    </li>
+

@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TravelerBlog.WebUI</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Unna:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/main.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TravelerBlog.WebUI.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/font-awesome/css/fontawesome.min.css" type="text/css">
+    <link rel="stylesheet" href="~/vendors/linericon/style.css">
+    <link rel="stylesheet" href="~/vendors/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/vendors/owl-carousel/owl.carousel.min.css">
+
+
+</head>
+<body>
+
+
+    @Html.Partial("~/PartialViews/LayoutPartials/_HeaderMenuPartial.cshtml")
+    <main class="site-main">
+        <!--================Hero Banner start =================-->
+        <section class="mb-30px">
+            <div class="container">
+                <div class="hero-banner">
+                    <div class="hero-banner__content">
+                        <img src="https://www.passengertravel.com/files/IMG_552_1647867573.jpg" style="width:100%; height:400px;" />
+                        <h3 class="bg-danger">Traveler Blog</h3>
+                        <h1 class="bg-warning">Amazing Places on earth</h1>
+                        <h4 class="bg-info">@DateTime.UtcNow.ToLongDateString()</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================Hero Banner end =================-->
+        <div class="container">
+            <div class="row">
+                @RenderBody()
+            </div>
+        </div>
+
+
+    </main>
+
+    
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/contact.js" asp-append-version="true"></script>
+    <script src="~/js/jquery.ajaxchimp.min.js" asp-append-version="true"></script>
+    <script src="~/js/jquery.form.js" asp-append-version="true"></script>
+    <script src="~/js/mail-script.js" asp-append-version="true"></script>
+    <script src="~/js/main.js" asp-append-version="true"></script>
+    <script src="~/vendors/owl-carousel/owl.carousel.min.js"></script>
+
+
+    <script src="https://kit.fontawesome.com/060c23d79e.js" crossorigin="anonymous"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿@model IEnumerable<TravelerBlog.Domain.Entities.Location>
+
+
+<h4 class="single-sidebar-widget__title">Most Commented Locations</h4>
+@foreach (var item in Model)
+{
+    <div class="col-md-3">
+        <div class="single-recent-blog-post">
+            <div class="thumb">
+                <img class="img-fluid" src="@item.LocationPictures.Select(x=>x.FileName).Single()" width="400">
+                <ul class="thumb-info">
+                    @*<li><a href="#"><i class="ti-user"></i>@item.Posts.Where(x => x.LocationId == item.Id).FirstOrDefault()</a></li>*@
+                    <li><a asp-action="GetPostDetail" asp-controller="Post" asp-route-id="@item.Posts.Select(x=>x.Id)"><i class="ti-notepad"></i>@item.Posts.Select(x=>x.SendDate).First()</a></li>
+                </ul>
+            </div>
+            <div class="details mt-20">
+                <a href="blog-single.html">
+                    <h3>
+                        @item.Posts.Select(x => x.Title).First()
+                    </h3>
+                </a>
+                <p>@item.Posts.Select(x => x.Content).First()</p>
+            </div>
+        </div>
+    </div>
+}
+

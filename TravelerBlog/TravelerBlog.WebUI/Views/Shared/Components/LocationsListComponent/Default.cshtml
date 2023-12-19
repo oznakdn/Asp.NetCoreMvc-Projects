@@ -1,0 +1,19 @@
+﻿@model IEnumerable<TravelerBlog.Domain.Entities.Location>
+<section>
+    <div class="container">
+            <div class="owl-carousel owl-theme blog-slider">
+                @foreach (var item in Model)
+                {
+                    <div class="card blog__slide text-center">
+                        <div class="blog__slide__img">
+                            <img class="card-img rounded-0" src="@item.LocationPictures.Select(x=>x.FileName).FirstOrDefault()" width="100">
+                        </div>
+                        <div class="blog__slide__content">
+                            <a class="blog__slide__label" href="/Location/GetLocationDetail/@item.Id">@item.LocationName</a>
+                            <p>@item.City/@item.Ditrict</p>
+                        </div>
+                    </div>
+                }
+            </div>
+    </div>
+</section>

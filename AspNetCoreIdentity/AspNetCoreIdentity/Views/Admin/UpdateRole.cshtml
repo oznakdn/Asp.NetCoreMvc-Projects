@@ -1,0 +1,47 @@
+﻿@model RoleUpdateViewModel
+
+@{
+    ViewData["Title"] = "UpdateRole";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row mt-5">
+    <div class="col-md-4 offset-4">
+        <h6 class="display-3 text-center text-primary">Role Updating</h6>
+    </div>
+</div>
+<hr />
+
+@if (ViewBag.Message == "Role was updated successfully.")
+{
+    <div class="row mt-5">
+        <div class="col-md-4 offset-4">
+            <span class="alert alert-success text-center">@ViewBag.Message</span>
+        </div>
+    </div>
+}
+
+@if (ViewBag.Message == "There is an error!")
+{
+    <div class="row mt-5">
+        <div class="col-md-4 offset-4">
+            <span class="alert alert-danger text-center">@ViewBag.Message</span>
+        </div>
+    </div>
+}
+
+<div class="row mt-4">
+    <div class="col-md-4 offset-4">
+        <form asp-action="UpdateRole" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-success">Save</button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,65 @@
+﻿@model UserEditViewModel
+
+@{
+    ViewData["Title"] = "UserEdit";
+    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+}
+
+
+<div class="row">
+    <h6 class="display-3 text-center text-primary">User Edit</h6>
+</div>
+<hr />
+
+
+@if (TempData["Message"] != null)
+{
+    <div class="row mt-3">
+        <span class="alert alert-success text-center">@TempData["Message"]</span>
+    </div>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-4 offset-4">
+            <form asp-action="UserEdit" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label class="control-label">Username</label>
+                    <input asp-for="UserName" class="form-control" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Phone Number</label>
+                    <input asp-for="PhoneNumber" class="form-control" />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">City</label>
+                    <input asp-for="City" class="form-control" />
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Email</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Birth Date</label>
+                    <input asp-for="BirthDate" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Gender</label>
+                    <select class="form-control" asp-for="Gender" asp-items="@ViewBag.Gender"></select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Picture</label>
+                    <input type="file" asp-for="Picture" class="form-control-file" name="userPicture" />
+                </div>
+                <div class="form-group mt-3">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+}

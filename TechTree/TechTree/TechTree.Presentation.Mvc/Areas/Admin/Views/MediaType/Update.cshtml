@@ -1,0 +1,33 @@
+﻿@model TechTree.Application.Dtos.MediaTypeDtos.UpdateMediaTypeDto
+
+<div class="row mt-5 mb-5">
+    <div class="col-md-12 mt-3 m-lg-5">
+        <input type="hidden" asp-for="Id" />
+        <h4 class="align-text-top">Edit @Model.Title Category</h4>
+        <form method="post" asp-action="Update" asp-controller="MediaType" class="w-50 mt-3">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly"></div>
+            <div class="form-group">
+                <label class="form-label">Title</label>
+                <input type="text" asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Thumbnail Picture</label>
+                <input type="text" asp-for="ThumbnailImagePath" class="form-control" />
+                <span asp-validation-for="ThumbnailImagePath" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-primary">Save the Changes</button>
+            </div>
+        </form>
+        <div class="form-group mt-5">
+            <a asp-action="Index" asp-controller="MediaType" class="link-info text-warning">Back to List</a>
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}

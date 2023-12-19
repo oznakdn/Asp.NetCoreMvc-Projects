@@ -1,0 +1,12 @@
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Infrastructure\bin\Debug\net6.0\E-Commerce.Infrastructure.deps.json
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Infrastructure\bin\Debug\net6.0\E-Commerce.Infrastructure.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Infrastructure\bin\Debug\net6.0\E-Commerce.Infrastructure.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Infrastructure\obj\Debug\net6.0\E-Commerce.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Infrastructure\obj\Debug\net6.0\E-Commerce.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Infrastructure\obj\Debug\net6.0\E-Commerce.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Infrastructure\obj\Debug\net6.0\E-Commerce.Infrastructure.AssemblyInfo.cs
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Infrastructure\obj\Debug\net6.0\E-Commerce.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Infrastructure\obj\Debug\net6.0\E-Commerce.Infrastructure.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Infrastructure\obj\Debug\net6.0\refint\E-Commerce.Infrastructure.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Infrastructure\obj\Debug\net6.0\E-Commerce.Infrastructure.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Infrastructure\obj\Debug\net6.0\ref\E-Commerce.Infrastructure.dll

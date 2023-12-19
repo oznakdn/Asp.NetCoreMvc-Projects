@@ -1,0 +1,21 @@
+﻿<!--================ Blog slider start (Locations here) =================-->
+@await Component.InvokeAsync("LocationsListComponent")
+<!--================ Blog slider end =================-->
+
+<!--================ Start Blog Post Area (Posts here) =================-->
+<section class="blog-post-area section-margin mt-4">
+    <div class="container">
+        <div class="row">
+                @await Component.InvokeAsync("RandomLocationsListComponent")
+                <!-- Start Blog Post Siddebar (Country's locations here) -->
+      
+                <!--Country's locations here end-->
+           
+                @await Component.InvokeAsync("CountryLocationsCountComponent")
+            </div>
+        </div>
+
+    <!-- End Blog Post Siddebar -->
+
+</section>
+<!--================ End Blog Post Area =================-->

@@ -1,0 +1,48 @@
+﻿@model AspNetCoreIdentity.Models.ViewModels.RoleCreateViewModel
+
+@{
+    ViewData["Title"] = "CreateRole";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row mt-5">
+    <div class="col-md-4 offset-4">
+        <h6 class="display-3 text-center text-primary">Role Creating</h6>
+    </div>
+</div>
+<hr />
+
+@if (ViewBag.Message == "Role has been created successfully.")
+{
+    <div class="row mt-5">
+        <div class="col-md-4 offset-4">
+            <span class="alert alert-success text-center">@ViewBag.Message</span>
+        </div>
+    </div>
+}
+
+@if (ViewBag.Message == "Role is exists already!")
+{
+    <div class="row mt-5">
+        <div class="col-md-4 offset-4">
+            <span class="alert alert-danger text-center">@ViewBag.Message</span>
+        </div>
+    </div>
+}
+
+
+<div class="row mt-5">
+    <div class="col-md-4 offset-4">
+        <form asp-action="CreateRole">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-primary">Add</button>
+            </div>
+        </form>
+    </div>
+</div>

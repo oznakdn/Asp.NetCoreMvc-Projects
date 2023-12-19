@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Application\bin\Debug\net6.0\E-Commerce.Application.deps.json
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Application\bin\Debug\net6.0\E-Commerce.Application.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Application\bin\Debug\net6.0\E-Commerce.Application.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Application\bin\Debug\net6.0\E-Commerce.Domain.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Application\bin\Debug\net6.0\E-Commerce.Domain.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Application\obj\Debug\net6.0\E-Commerce.Application.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Application\obj\Debug\net6.0\E-Commerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Application\obj\Debug\net6.0\E-Commerce.Application.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Application\obj\Debug\net6.0\E-Commerce.Application.AssemblyInfo.cs
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Application\obj\Debug\net6.0\E-Commerce.Application.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Application\obj\Debug\net6.0\E-Commerce.Application.csproj.CopyComplete
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Application\obj\Debug\net6.0\E-Commerce.Application.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Application\obj\Debug\net6.0\refint\E-Commerce.Application.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Application\obj\Debug\net6.0\E-Commerce.Application.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\E-Commerce\E-Commerce\E-Commerce.Application\obj\Debug\net6.0\ref\E-Commerce.Application.dll

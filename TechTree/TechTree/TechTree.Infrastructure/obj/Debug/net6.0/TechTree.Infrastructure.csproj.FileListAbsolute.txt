@@ -1,0 +1,12 @@
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Infrastructure\bin\Debug\net6.0\TechTree.Infrastructure.deps.json
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Infrastructure\bin\Debug\net6.0\TechTree.Infrastructure.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Infrastructure\bin\Debug\net6.0\TechTree.Infrastructure.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Infrastructure\obj\Debug\net6.0\TechTree.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Infrastructure\obj\Debug\net6.0\TechTree.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Infrastructure\obj\Debug\net6.0\TechTree.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Infrastructure\obj\Debug\net6.0\TechTree.Infrastructure.AssemblyInfo.cs
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Infrastructure\obj\Debug\net6.0\TechTree.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Infrastructure\obj\Debug\net6.0\TechTree.Infrastructure.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Infrastructure\obj\Debug\net6.0\refint\TechTree.Infrastructure.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Infrastructure\obj\Debug\net6.0\TechTree.Infrastructure.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Infrastructure\obj\Debug\net6.0\ref\TechTree.Infrastructure.dll

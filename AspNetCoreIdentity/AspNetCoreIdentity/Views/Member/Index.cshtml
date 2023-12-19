@@ -1,0 +1,35 @@
+﻿@model UserViewModel
+
+@{
+
+    Layout = "_MemberLayout";
+}
+
+
+<div class="row">
+    <h6 class="display-3 text-center text-primary">User Information</h6>
+</div>
+
+<div class="row">
+    <div class="col-md-6 offset-3">
+
+        <div class="card" style="width: 40rem;">
+            <div class="col-md-4">
+                <img class="card-img-top img-thumbnail" src="~/Picture/@Model.Picture" alt="Card image cap">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <p class="card-title"><span class="text-primary">Username :</span> @Model.UserName</p>
+                    <p class="card-title"><span class="text-primary">Phone :</span> @Model.PhoneNumber</p>
+                    <p class="card-title"><span class="text-primary">City :</span> @Model.City</p>
+                    <p class="card-text"><span class="text-primary">Email :</span> @Model.Email</p>
+                    <p class="card-text"><span class="text-primary">Birth Of Date :</span> @Model.BirthDate</p>
+                    <p class="card-text"><span class="text-primary">Gender :</span> @Model.Gender</p>
+                </div>
+            </div>
+           
+        </div>
+        
+
+    </div>
+</div>

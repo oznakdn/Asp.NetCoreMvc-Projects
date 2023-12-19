@@ -1,0 +1,42 @@
+﻿@model IEnumerable<TechTree.Application.Dtos.CategoryDtos.CategoriesDto>
+
+
+    <div class="row mt-5">
+        <h4 class="text-center">Categories</h4>
+        <span>
+            <a asp-action="Add" asp-controller="Category" class="btn btn-primary btn-sm">New Category</a>
+        </span>
+        <div class="col-md-12 mt-3 p-2">
+            <table class="table table-bordered">
+                <thead class="text-danger text-center">
+                    <tr>
+                        <th>Id</th>
+                        <th>Thumbnail</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Actions</th>
+                    </tr>
+
+                </thead>
+
+                <tbody class="text-white text-center p-2">
+                    @foreach (var item in Model)
+                    {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td><img src="@item.ThumbnailImagePath" class="img-fluid" style="max-height:50px;" /></td>
+                        <td>@item.Title</td>
+                        <td>@item.Description</td>
+                        <td>
+                            <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@item.Id">Detail</a>
+                            <a class="btn btn-warning btn-sm" asp-action="Update" asp-route-id="@item.Id">Update</a>
+                            <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                            <a class="btn btn-secondary btn-sm" asp-controller="CategoryItem" asp-action="Index" asp-route-id="@item.Id">Items</a>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+
+            </table>
+        </div>
+    </div>

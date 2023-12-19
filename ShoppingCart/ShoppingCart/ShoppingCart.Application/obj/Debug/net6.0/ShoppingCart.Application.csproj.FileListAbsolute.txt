@@ -1,0 +1,17 @@
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Application\bin\Debug\net6.0\ShoppingCart.Application.deps.json
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Application\bin\Debug\net6.0\ShoppingCart.Application.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Application\bin\Debug\net6.0\ShoppingCart.Application.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Application\bin\Debug\net6.0\ShoppingCart.Domain.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Application\bin\Debug\net6.0\ShoppingCart.Persistence.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Application\bin\Debug\net6.0\ShoppingCart.Persistence.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Application\bin\Debug\net6.0\ShoppingCart.Domain.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Application\obj\Debug\net6.0\ShoppingCart.Application.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Application\obj\Debug\net6.0\ShoppingCart.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Application\obj\Debug\net6.0\ShoppingCart.Application.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Application\obj\Debug\net6.0\ShoppingCart.Application.AssemblyInfo.cs
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Application\obj\Debug\net6.0\ShoppingCart.Application.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Application\obj\Debug\net6.0\ShoppingCart.Application.csproj.CopyComplete
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Application\obj\Debug\net6.0\ShoppingCart.Application.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Application\obj\Debug\net6.0\refint\ShoppingCart.Application.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Application\obj\Debug\net6.0\ShoppingCart.Application.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Application\obj\Debug\net6.0\ref\ShoppingCart.Application.dll

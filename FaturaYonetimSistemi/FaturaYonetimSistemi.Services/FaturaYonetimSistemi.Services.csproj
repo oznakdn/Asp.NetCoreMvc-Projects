@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FaturaYonetimSistemi.Data\FaturaYonetimSistemi.Data.csproj" />
+    <ProjectReference Include="..\FaturaYonetimSistemi.Shared\FaturaYonetimSistemi.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
+
+</Project>

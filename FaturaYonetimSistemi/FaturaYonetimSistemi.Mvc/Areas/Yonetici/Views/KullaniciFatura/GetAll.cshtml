@@ -1,0 +1,25 @@
+﻿@model List<FaturaYonetimSistemi.Shared.Dtos.KullaniciFaturaDtos.ListKullaniciFaturaDto>
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Fatura</th>
+            <th>Tutar</th>
+            <th>Son Ödeme Tarihi</th>
+            <th>Ödendi Mi</th>
+            <th>Ödenme Tarihi</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FaturaAdi</td>
+                <td>@item.Tutar</td>
+                <td>@item.SonÖdemeTarihi</td>
+                <td>@item.OdendiMi</td>
+                <td>@item.OdenmeTarihi</td>
+            </tr>
+        }
+    </tbody>
+</table>

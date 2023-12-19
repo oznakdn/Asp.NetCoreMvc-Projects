@@ -1,0 +1,12 @@
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Infrastructure\bin\Debug\net6.0\ShoppingCart.Infrastructure.deps.json
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Infrastructure\bin\Debug\net6.0\ShoppingCart.Infrastructure.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Infrastructure\bin\Debug\net6.0\ShoppingCart.Infrastructure.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Infrastructure\obj\Debug\net6.0\ShoppingCart.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Infrastructure\obj\Debug\net6.0\ShoppingCart.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Infrastructure\obj\Debug\net6.0\ShoppingCart.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Infrastructure\obj\Debug\net6.0\ShoppingCart.Infrastructure.AssemblyInfo.cs
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Infrastructure\obj\Debug\net6.0\ShoppingCart.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Infrastructure\obj\Debug\net6.0\ShoppingCart.Infrastructure.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Infrastructure\obj\Debug\net6.0\refint\ShoppingCart.Infrastructure.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Infrastructure\obj\Debug\net6.0\ShoppingCart.Infrastructure.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Infrastructure\obj\Debug\net6.0\ref\ShoppingCart.Infrastructure.dll

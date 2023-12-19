@@ -1,0 +1,37 @@
+﻿@*@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore
+@using TechTree.Domain.Entities
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+
+
+@if (SignInManager.IsSignedIn(User) && await UserManager.IsInRoleAsync(UserManager.GetUserAsync(User).Result, "Admin"))
+{
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Admin</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" asp-action="Index" asp-controller="Category" asp-area="Admin">Categories</a>
+            <a class="dropdown-item" href="#">User to Category</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" asp-action="Index" asp-controller="MediaType" asp-area="Admin">Media Types</a>
+        </div>
+    </li>
+}*@
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Admin</a>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" asp-action="Index" asp-controller="Category" asp-area="Admin">Categories</a>
+        <a class="dropdown-item" href="#">User to Category</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" asp-action="Index" asp-controller="MediaType" asp-area="Admin">Media Types</a>
+    </div>
+</li>
+
+
+
+
+

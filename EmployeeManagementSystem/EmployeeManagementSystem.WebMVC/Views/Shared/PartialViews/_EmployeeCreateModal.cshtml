@@ -1,0 +1,64 @@
+﻿@using EmployeeManagementSystem.WebMVC.Models.Enums
+
+
+
+
+
+<!-- Button trigger modal -->
+
+
+<button type="button" class="btn btn-primary" onclick="ClearInputs();" data-bs-toggle="modal" data-bs-target="#employeeModal">Add New</button>
+
+<!-- Modal -->
+<div class="modal fade" id="employeeModal" tabindex="-1" aria-labelledby="employeeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center text-primary" id="employeeModalLabel">Create Employee</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" name="Id" id="txtId" />
+                <div class="row">
+                    <input type="hidden" id="hdnId" />
+                    <div class="form-group">
+                        <label>First name</label>
+                        <input type="text" name="Firstname" id="txtFirstname" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Last name</label>
+                        <input type="text" name="Lastname" id="txtLastname" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Photo url</label>
+                        <input type="text" name="PhotoUrl" id="txtPhotoUrl" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <select name="Gender" id="txtGender" class="form-control">
+                            <option value="true">Female</option>
+                            <option value="false">Male</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Department</label>
+                        <select name="Department" id="txtDepartment" class="form-control" asp-items="Html.GetEnumSelectList<Department>()"></select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Start date</label>
+                        <input type="date" name="StartDate" id="txtStartDate" class="form-control" />
+                    </div>
+                    <br />
+                    <br />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="btnAdd" onclick="Add(); return;" class="btn btn-primary">Add</button>
+                <button type="button" id="btnUpdate" onclick="Update(); return;" style="display:none;" class="btn btn-primary">Update</button>
+                <button type="button" href="#" class="btn btn-default" id="btnClose" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+

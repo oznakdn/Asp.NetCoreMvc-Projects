@@ -1,0 +1,15 @@
+﻿@model FaturaYonetimSistemi.Shared.Entities.Aidat
+
+    <div class="card" style="width: 18rem;">
+        <h4>Aidat Silinecektir!</h4>
+        <form asp-action="DeleteAidat" method="post">
+            <input type="hidden" asp-for="@Model.ID"/>
+            <div class="card-body">
+                <h5 class="card-title" @Model.Donem></h5>
+                <h6 class="card-subtitle mb-2 text-muted">@Model.SonOdemeTarihi</h6>
+                <p class="card-text">@Model.Tutar</p>
+                <button type="submit" class="btn btn-danger">Sil</button>
+                <a asp-action="GetAllAidat" class="btn btn-info">Geri</a>
+            </div>
+        </form>
+    </div>

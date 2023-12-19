@@ -1,0 +1,22 @@
+﻿@model FaturaYonetimSistemi.Shared.Dtos.KullaniciDtos.DetailKullaniciDto
+
+
+<div class="text-center">
+    <form class="form-signin">
+        <img class="mb-5" src="~/img/Apartment_Management.jpg" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Lütfen Giriş Yapınız</h1>
+        <label for="inputEmail" class="sr-only">Email Adresiniz</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+        <label for="inputPassword" class="sr-only">Şifreniz</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Şifre" required>
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="remember-me"> Beni hatırla!
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" asp-action="Index" asp-controller="Kullanici" type="submit">Giriş Yap</button>
+        <!--button asp-route-id="Model.Id" gelecek-->
+        <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
+    </form>
+
+</div>

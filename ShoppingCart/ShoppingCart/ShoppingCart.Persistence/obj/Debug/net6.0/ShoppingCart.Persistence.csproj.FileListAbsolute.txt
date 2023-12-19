@@ -1,0 +1,17 @@
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Persistence\bin\Debug\net6.0\ShoppingCart.Persistence.deps.json
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Persistence\bin\Debug\net6.0\ShoppingCart.Persistence.runtimeconfig.json
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Persistence\bin\Debug\net6.0\ShoppingCart.Persistence.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Persistence\bin\Debug\net6.0\ShoppingCart.Persistence.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Persistence\bin\Debug\net6.0\ShoppingCart.Domain.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Persistence\bin\Debug\net6.0\ShoppingCart.Domain.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Persistence\obj\Debug\net6.0\ShoppingCart.Persistence.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Persistence\obj\Debug\net6.0\ShoppingCart.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Persistence\obj\Debug\net6.0\ShoppingCart.Persistence.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Persistence\obj\Debug\net6.0\ShoppingCart.Persistence.AssemblyInfo.cs
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Persistence\obj\Debug\net6.0\ShoppingCart.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Persistence\obj\Debug\net6.0\ShoppingCart.Persistence.csproj.CopyComplete
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Persistence\obj\Debug\net6.0\ShoppingCart.Persistence.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Persistence\obj\Debug\net6.0\refint\ShoppingCart.Persistence.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Persistence\obj\Debug\net6.0\ShoppingCart.Persistence.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Persistence\obj\Debug\net6.0\ShoppingCart.Persistence.genruntimeconfig.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\ShoppingCart\ShoppingCart\ShoppingCart.Persistence\obj\Debug\net6.0\ref\ShoppingCart.Persistence.dll

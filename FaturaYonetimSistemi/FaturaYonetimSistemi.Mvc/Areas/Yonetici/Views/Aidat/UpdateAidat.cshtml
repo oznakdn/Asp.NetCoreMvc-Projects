@@ -1,0 +1,37 @@
+﻿@model FaturaYonetimSistemi.Shared.Dtos.AidatDtos.UpdateAidatDto
+
+
+<h4>Aidat Güncelle</h4>
+
+<div asp-validation-summary="All"></div>
+<form asp-action="UpdateAidat" asp-controller="Aidat" asp-area="Yonetici" method="post" class="w-75 mx-auto" enctype="multipart/form-data">
+    <div class="form-group">
+        <input type="hidden" asp-for="@Model.ID" />
+        <label>Dönem</label>
+        <span class="text-danger" asp-validation-for="Donem"></span>
+        <input type="text" asp-for="Donem" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Tutar</label>
+        <span class="text-danger" asp-validation-for="Tutar"></span>
+        <input type="text" asp-for="Tutar" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Son Ödeme Tarihi</label>
+        <span class="text-danger" asp-validation-for="SonOdemeTarihi"></span>
+        <input type="date" asp-for="SonOdemeTarihi" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Açıklama</label>
+        <span class="text-danger" asp-validation-for="Aciklama"></span>
+        <input type="text" asp-for="Aciklama" class="form-control" />
+    </div>
+    <div class="form-check">
+        <input type="checkbox" asp-for="AktifMi" class="form-check-input" />
+        <label asp-for="AktifMi"></label>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </div>
+</form>

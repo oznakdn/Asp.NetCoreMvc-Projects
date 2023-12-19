@@ -1,0 +1,23 @@
+﻿@model FaturaYonetimSistemi.Shared.Dtos.KullaniciDtos.DetailKullaniciDto
+
+<div class="card" style="width: 25rem; margin-left:500px">
+    <input type="hidden" asp-route="@Model.ID" />
+
+    <img class="card-img-top" src="@Model.Fotograf" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Ad @Model.Soyad</h5>
+        <h5 class="card-title">T.C: @Model.TCNo / @Model.SahibiMi</h5>
+        <h5 class="card-title">Kat: @Model.Kat / Daire: @Model.DaireNo / @Model.DaireTipi</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item"><b>Email: </b>@Model.Email</li>
+        <li class="list-group-item"><b>Telefon: </b>@Model.Telefon</li>
+        <li class="list-group-item"><b>Araç: </b>@Model.Arac</li>
+        <li class="list-group-item"><b>Plaka: </b>@Model.Plaka</li>
+    </ul>
+    <div class="card-body">
+        <a class="btn btn-warning btn-block" asp-action="Update" asp-controller="Kullanici" asp-route-id="@Model.ID">Faturalar</a>
+        <a class="btn btn-danger btn-block" asp-route-id="@Model.ID" asp-action="Delete">Aidatlar</a>
+    </div>
+</div>
+

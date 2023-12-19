@@ -1,0 +1,15 @@
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Application\obj\Debug\net6.0\TechTree.Application.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Application\obj\Debug\net6.0\TechTree.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Application\obj\Debug\net6.0\TechTree.Application.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Application\obj\Debug\net6.0\TechTree.Application.AssemblyInfo.cs
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Application\obj\Debug\net6.0\TechTree.Application.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Application\bin\Debug\net6.0\TechTree.Application.deps.json
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Application\bin\Debug\net6.0\TechTree.Application.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Application\bin\Debug\net6.0\TechTree.Application.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Application\bin\Debug\net6.0\TechTree.Domain.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Application\bin\Debug\net6.0\TechTree.Domain.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Application\obj\Debug\net6.0\TechTree.Application.csproj.CopyComplete
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Application\obj\Debug\net6.0\TechTree.Application.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Application\obj\Debug\net6.0\refint\TechTree.Application.dll
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Application\obj\Debug\net6.0\TechTree.Application.pdb
+C:\Users\USER\Desktop\Kurslar\Youtube\TechTree\TechTree\TechTree.Application\obj\Debug\net6.0\ref\TechTree.Application.dll

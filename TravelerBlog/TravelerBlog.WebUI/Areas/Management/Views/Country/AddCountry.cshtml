@@ -1,0 +1,11 @@
+﻿@model TravelerBlog.Core.Dtos.CountryDto.CreateCountryDto
+
+<div asp-validation-summary="ModelOnly"></div>
+
+<form asp-action="AddCountry">
+    Country: <input asp-for="CountryName" /> <span asp-validation-for="CountryName"></span>
+    <br />
+    Description: <input asp-for="Description" /> <span asp-validation-for="Description"></span>
+    <br /><br />
+    <input type="submit" value="submit" />
+</form>

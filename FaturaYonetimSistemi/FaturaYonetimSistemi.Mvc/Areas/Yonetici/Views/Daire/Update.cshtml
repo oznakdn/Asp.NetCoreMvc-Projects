@@ -1,0 +1,53 @@
+﻿@model FaturaYonetimSistemi.Shared.Dtos.DaireDtos.UpdateDaireDto
+
+
+<div class="col-md-12">
+    <div asp-validation-summary="ModelOnly"></div>
+    <form class="w-50 mx-auto" asp-action="Update" method="post" asp-controller="Daire" enctype="multipart/form-data">
+        <input type="hidden" asp-for="ID" />
+        <div class="form-group">
+            <label>Blok ID</label>
+            <span asp-validation-for="Blokid"></span>
+            <input type="text" class="form-control" asp-for="Blokid" />
+        </div>
+
+        <div class="form-group">
+            <label>Daire No</label>
+            <span asp-validation-for="DaireNo"></span>
+            <input type="text" class="form-control" asp-for="DaireNo" />
+        </div>
+
+        <div class="form-group">
+            <label>Kat</label>
+            <span asp-validation-for="Kat"></span>
+            <input type="text" class="form-control" asp-for="Kat" />
+        </div>
+
+        <div class="form-group">
+            <label>Tipi</label>
+            <span asp-validation-for="Tipi"></span>
+            <input type="text" class="form-control" asp-for="Tipi" />
+        </div>
+
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" asp-for="BosMu" />
+            <label>Boş Mu?</label>
+        </div>
+
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" asp-for="SahibiMi" />
+            <label>Konut Sahibi Mi?</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" asp-for="AktifMi" />
+            <label>Aktif Mi?</label>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-success">Kaydet</button>
+            <a class="btn btn-warning" asp-action="GetAll">Geri</a>
+        </div>
+    </form>
+</div>
+
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>

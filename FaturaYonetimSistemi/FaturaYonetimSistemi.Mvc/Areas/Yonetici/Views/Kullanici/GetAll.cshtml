@@ -1,0 +1,26 @@
+﻿@model List<FaturaYonetimSistemi.Shared.Dtos.KullaniciDtos.ListKullaniciDto>
+
+<div class="col-md-12">
+    <a class="btn btn-primary btn-block" asp-action="Add" asp-controller="Kullanici">Yeni</a>
+</div>
+    <div class="col-md-4 mb-3" style="margin-left:500px;">
+        <div class="card" style="width: 20rem;">
+            @foreach (var item in Model)
+            {
+               
+                <img class="card-img-top" src="@item.Fotograf" alt="@item.Ad">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Ad @item.Soyad</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Daire No: @item.DaireNo</li>
+                </ul>
+                <div class="card-body">
+                    <a class="btn btn-info btn-block" asp-route-id="@item.ID" asp-action="GetDetail" asp-controller="Kullanici">Detay</a>
+                    <a class="btn btn-dark btn-block" asp-action="GetAll" asp-controller="KullaniciAidat" asp-route-id="@item.ID">Aidatlar</a>
+                    <a class="btn btn-secondary btn-block" asp-action="GetAll" asp-controller="KullaniciFatura" asp-route-id="@item.ID">Faturalar</a>
+                </div>
+            }
+
+        </div>
+    </div>

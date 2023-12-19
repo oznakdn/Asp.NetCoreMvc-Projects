@@ -1,0 +1,11 @@
+﻿@model TravelerBlog.Domain.Entities.Country
+
+    <div class="col-6 offset-2">
+        <div class="card" style="width: 60rem;">
+            <img class="card-img-top" src="@Model.FlagPicture.FileName" width="300" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">@Model.CountryName</h5>
+                <p class="card-text">@Model.Description</p>
+            </div>
+        </div>
+    </div>
